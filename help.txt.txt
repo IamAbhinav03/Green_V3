@@ -1,6 +1,0 @@
-This version of Green is created for the hack4earth hackathon. The majour changes in this version is:
-
-1) Removed Pavithrans name from the webpages
-2) Added lan network for sharing to mac
-3) Added this entire folder to new git repo temporarily for this hackathon
-4) 
