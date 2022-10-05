@@ -24,12 +24,15 @@ Our solution to the above mentioned problems is an all-in-one platform for waste
 The majour feature of our web app is in the **Reuse Tab** of our web-app. We have used an **AI**  algorithm which can dectet different materials. A user loged int our web app can use this to scan their waste material and the model predict it. It also give links to articles and videos of reusing that material. An example use case will be. if the user has a paper waste material, ther user can scan it and the model predicts and materials and give links to articles on how to reuse that paper into craft items and etc. We are hoping to educate users about reusing waste materials with this feature. We also belive that this feature wil help users to segraate the materials more efficiently.
 
 We also found that to make reusing more attractive to users, a reward system will be good. So we added a **point system** where the waste agencies(admin of the web app) can give points to the users.
+
 ![alt text](https://github.com/IamAbhinav03/Green_V3/blob/main/assets/profile.jpg?raw=true)
+
 
 ## Features on Development
 
 * **Empty Trash**
 ![alt text](https://github.com/IamAbhinav03/Green_V3/blob/main/assets/et.jpg?raw=true)
+
 	* We have also noticed that some people dump or burn their waste due to the lack of timely collection of them for recycling. So we have been working on feature that is implemented in the Notify tab of the web-app. Users can go there and notify their waste collection agency or muncipalites that their garbage bin is full.
 	>Current implementation just send the notification to the admin.
 	
