@@ -31,6 +31,7 @@ We also found that to make reusing more attractive to users, a reward system wil
 ## Features on Development
 
 * **Empty Trash**
+
 ![alt text](https://github.com/IamAbhinav03/Green_V3/blob/main/assets/et.jpg?raw=true)
 
 	* We have also noticed that some people dump or burn their waste due to the lack of timely collection of them for recycling. So we have been working on feature that is implemented in the Notify tab of the web-app. Users can go there and notify their waste collection agency or muncipalites that their garbage bin is full.
