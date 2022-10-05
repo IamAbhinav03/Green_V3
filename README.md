@@ -21,9 +21,9 @@ But worry not, we humans have realised our mistakes and started taking critical 
 
 Our solution to the above mentioned problems is an all-in-one platform for waste management. We belive that if every person properly segrates the waste they produce and reuse the most of it will make the 3 R's initiative more effective. 
 
-The majour feature of our web app is in the Reuse Tab of our web-app. We have used an **AI**  algorithm which can dectet different materials. A user loged int our web app can use this to scan their waste material and the model predict it. It also give links to articles and videos of reusing that material. An example use case will be. if the user has a paper waste material, ther user can scan it and the model predicts and materials and give links to articles on how to reuse that paper into craft items and etc. We are hoping to educate users about reusing waste materials with this feature. We also belive that this feature wil help users to segraate the materials more efficiently.
+The majour feature of our web app is in the **Reuse Tab** of our web-app. We have used an **AI**  algorithm which can dectet different materials. A user loged int our web app can use this to scan their waste material and the model predict it. It also give links to articles and videos of reusing that material. An example use case will be. if the user has a paper waste material, ther user can scan it and the model predicts and materials and give links to articles on how to reuse that paper into craft items and etc. We are hoping to educate users about reusing waste materials with this feature. We also belive that this feature wil help users to segraate the materials more efficiently.
 
-We also found that to make reusing more attractive to users, a reward system will be good. So we added a point system where the waste agencies(admin of the web app) can give points to the users.
+We also found that to make reusing more attractive to users, a reward system will be good. So we added a **point system** where the waste agencies(admin of the web app) can give points to the users.
 
 ## Features on Development
 
@@ -46,7 +46,7 @@ We also found that to make reusing more attractive to users, a reward system wil
 	*  **Database**
 		* Postgress
 	* **AI Model**
-		* For detecting the waste materials, we have trained a ResNet-50 model, a convolution neural network that classifies images into 6 categories(Paper, plastic, cardboard, metal, glass, organic) using the Pytorch framework. The model was trained on [Garbage classification Dataset](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification) from kaggle. The current model has an accuracy of 95% on the test dataset.
+		* For detecting the waste materials, we have trained a **ResNet-50** model, a convolution neural network that classifies images into 6 categories(Paper, plastic, cardboard, metal, glass, organic) using the Pytorch framework. The model was trained on [Garbage classification Dataset](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification) from kaggle. The current model has an accuracy of 95% on the test dataset.
 
 * **How does it works**
 	* The model predicts the waste material in the given image, compares it with the resource list on the web applciation, and picks the correct suggestion. Suggestions in the form of links to articles and videos regarding waste management are also shared by the model. The model can be used as a web application with people from muncipalites(admin) having access to it. Currently it's hosted locally. We are planning to host it in aws in the future.
